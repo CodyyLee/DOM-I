@@ -62,6 +62,11 @@ let pageHeading = document.querySelector(".cta-text h1");
 
 pageHeading.textContent = siteContent["cta"]["h1"];
 
+//image next to heading
+let ctaImg = document.querySelector(".cta img");
+
+ctaImg.src = siteContent['cta']['img-src'];
+
 //cta button 
 let ctaButton = document.querySelector(".cta button");
 
